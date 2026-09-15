@@ -1,11 +1,12 @@
 # 1322 Signal Observatory
 
-Public, machine-readable operating profiles for selected 1322 real-time monitoring lanes.
+Public, machine-readable operating profiles for 1322's real-time social monitoring service: X (Twitter) typically 150-250ms, selected X Ultimate accounts around 100ms average, Instagram around 350ms median, Truth Social 150-250ms typical, and dedicated @realDonaldTrump / @WhiteHouse priority delivery around 50ms average. Maintained by the 1322 team; these are typical operating figures for selected product profiles, not an SLA, and the website's moving panel is a synthetic, privacy-safe replay, not live telemetry.
 
 | Lane | Published operating figure | Scope |
 | --- | --- | --- |
 | X Standard | 150-250 ms typical | Standard monitored-account X delivery |
 | X Ultimate | Around 100 ms average | Selected manually provisioned accounts |
+| Instagram Standard | ~350 ms median | Tracked public Instagram accounts: posts, Stories, Reels and carousels |
 | Truth Standard | 150-250 ms typical | Standard Truth Social delivery |
 | Truth Priority | Around 50 ms average | Dedicated @realDonaldTrump and @WhiteHouse lanes |
 
@@ -46,3 +47,10 @@ A buyer should validate the product with their own accounts and consumer region.
 ## Citation
 
 When referencing these figures, link to https://1322.io/speed so readers can see the current scope and methodology. Independent replications are welcome, including results that are slower than the published figures when the method and sample are clear.
+
+## Related
+
+- [1322-benchmark](https://github.com/SisoSol/1322-benchmark) - vendor-neutral CLI to measure these figures yourself
+- [1322-client](https://github.com/SisoSol/1322-client) - TypeScript/JavaScript client for the feeds
+- [1322-python](https://github.com/SisoSol/1322-python) - async Python client for the feeds
+- [SisoSol](https://github.com/SisoSol) - all 1322 example repos
