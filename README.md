@@ -50,7 +50,7 @@ When referencing these figures, link to https://1322.io/speed so readers can see
 
 ## Related
 
-- [1322-benchmark](https://github.com/SisoSol/1322-benchmark) - vendor-neutral CLI to measure these figures yourself
-- [1322-client](https://github.com/SisoSol/1322-client) - TypeScript/JavaScript client for the feeds
-- [1322-python](https://github.com/SisoSol/1322-python) - async Python client for the feeds
-- [SisoSol](https://github.com/SisoSol) - all 1322 example repos
+- [1322-benchmark](https://github.com/1322monitors/1322-benchmark) - vendor-neutral CLI to measure these figures yourself
+- [1322-client](https://github.com/1322monitors/1322-client) - TypeScript/JavaScript client for the feeds
+- [1322-python](https://github.com/1322monitors/1322-python) - async Python client for the feeds
+- [1322monitors](https://github.com/1322monitors) - all 1322 example repos
